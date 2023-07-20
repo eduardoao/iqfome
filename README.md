@@ -24,6 +24,14 @@ Here're some of the project's best features:
 *   8 - Deploy on free cloud host
 *   9 - Using PayPal API
 
+<h2>Installation</h2>
+
+* Git
+* VSCode
+* NodeJS
+* Postman
+* Extesiona for VSCode (Angular Essensials)
+
 <h2>Lessons</h2>
 
 This project was separed in 20 lessons.
