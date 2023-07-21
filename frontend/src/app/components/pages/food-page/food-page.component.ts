@@ -10,6 +10,7 @@ import { Food } from 'src/app/shared/models/food';
 })
 export class FoodPageComponent {
   food!:Food;
+
   constructor(activatedRoute: ActivatedRoute, foodService:FoodService){
     activatedRoute.params.subscribe((params) => {
       if(params.id)

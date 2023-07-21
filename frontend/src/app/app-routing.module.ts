@@ -7,7 +7,7 @@ const routes: Routes = [
   {path: 'search/:searchTerm', component:HomeComponent},
   {path: '', component:HomeComponent},
   {path: 'food/:id', component:FoodPageComponent},
-  { path: 'tag/:tag', component: HomeComponent },
+  {path: 'tag/:tag', component: HomeComponent },
 ];
 
 @NgModule({
