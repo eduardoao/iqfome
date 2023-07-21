@@ -7,7 +7,7 @@ export const sample_foods: Food[] = [
     name: 'Pizza Pepperoni',
     cookTime: '10-20',
     price: 10,
-    favorite: true,
+    favorite: false,
     origins: ['italy'],
     stars: 4.5,
     imageUrl: 'assets/food-1.jpg',
