@@ -34,7 +34,7 @@ li a img{
   margin-top: 0.3rem;
   padding: 0.5rem 1rem;
   position:relative;
-  height: 6.5rem;
+  height: 7rem;
 }
 
 .favorite{
@@ -44,15 +44,19 @@ li a img{
   font-size: 1.2rem;
 }
 
-.favorite.not{
+.favoritenot{
+  position: absolute;
+  top:0.5rem;
+  right: 1rem;
+  font-size: 1.2rem;
   color:grey;
 }
 
 .stars{
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.7rem;
 }
 
-.product-teim-footer{
+.product-item-footer{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -61,6 +65,7 @@ li a img{
 
 .origins{
   flex:9;
+
 }
 
 .origins span{
