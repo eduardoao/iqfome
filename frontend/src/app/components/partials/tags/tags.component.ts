@@ -11,9 +11,9 @@ import { Tag } from 'src/app/shared/models/tag';
 export class TagsComponent  {
   tags?:Tag[];
 
-   constructor(activatedRoute:ActivatedRoute, private router:Router) {
-    activatedRoute.params.subscribe((params)=> {
-      if(params.tags) this.tags = params.tags;
-    });
+  constructor(foodService: FoodService) {
+    this.tags = foodService.getAllTags();
+
   }
+
 }
