@@ -44,12 +44,12 @@ li a img{
   font-size: 1.2rem;
 }
 
-.favoritenot{
+.favorite.not{
   position: absolute;
   top:0.5rem;
   right: 1rem;
   font-size: 1.2rem;
-  color:grey;
+  color:grey !important;
 }
 
 .stars{
@@ -91,9 +91,9 @@ li a img{
   bottom: 0;
   left: 0.9rem;
   background: white;
-  padding:0.3rem 100% 0 0;
+  padding:0.3rem 100% 10 20;
   color: #414141;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 
 
