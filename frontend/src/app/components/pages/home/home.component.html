@@ -4,13 +4,13 @@
       <img [src]="food.imageUrl" [alt]="food.name"/>
 
       <div class="content">
-
         <div class="name">
           {{food.name}}
         </div>
-        <span class="favorite{{food.favorite? '': 'not'}}">
+        <span class="favorite {{food.favorite?'':'not'}}">
           ❤
         </span>
+
         <div class="stars">
           <ngb-rating [max]="5"
           [(rate)]="food.stars"
@@ -42,3 +42,8 @@
   </a>
   </li>
 </ul>
+
+
+<footer>
+  <span>Versão 1.0.1</span>
+</footer>
