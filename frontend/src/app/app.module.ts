@@ -9,6 +9,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SearchComponent } from './components/partials/search/search.component';
 import { FoodPageComponent } from './components/pages/food-page/food-page.component';
 import { TagsComponent } from './components/partials/tags/tags.component';
+import { FooterComponent } from './components/partials/footer/footer.component';
+
 
 
 @NgModule({
@@ -18,7 +20,8 @@ import { TagsComponent } from './components/partials/tags/tags.component';
     HomeComponent,
     SearchComponent,
     FoodPageComponent,
-    TagsComponent
+    TagsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

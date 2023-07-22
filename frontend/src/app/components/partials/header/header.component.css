@@ -24,6 +24,7 @@ a:hover {
 a.logo {
   font-weight: bold;
   padding: 1rem;
+  font-size: 1.4rem;
 }
 
 ul {
