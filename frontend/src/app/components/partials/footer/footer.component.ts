@@ -11,7 +11,6 @@ export class FooterComponent {
 
 constructor() {
   this.date = "21/07/2023 - 22:15" ;
-
 }
 
 }
