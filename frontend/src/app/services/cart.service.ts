@@ -58,7 +58,7 @@ export class CartService {
     .reduce((prevSum, currentItem) => prevSum + currentItem.quantity, 0 );
 
     const cartJson = JSON.stringify(this.cart);
-    localStorage.setValue('Cart', cartJson);
+    localStorage.setItem('Cart', cartJson);
 
     this.cartSubject.next(this.cart);
   }

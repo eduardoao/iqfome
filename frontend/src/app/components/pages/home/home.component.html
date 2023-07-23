@@ -4,7 +4,7 @@
 <ul>
   <li *ngFor="let food of foods">
     <a routerLink="/food/{{food.id}}">
-      <img [src]="food.imageUrl" [alt]="food.name"/>
+      <img [src]="food.imageUrl[0]" [alt]="food.name"/>
 
       <div class="content">
         <div class="name">
@@ -47,4 +47,3 @@
 </ul>
 
 
-<app-footer></app-footer>

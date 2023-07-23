@@ -1,5 +1,17 @@
 <div class="container">
-  <img [src]="food.imageUrl" [alt]="food.name">
+
+ <!-- <ngb-carousel class="carrossel" *ngIf="food.imageUrl">
+    <ng-template ngbSlide *ngFor="let image of food.imageUrl">
+      <div class="picsum-img-wrapper">
+        <img [src]="image" [alt]= "food.name" class="img" />
+      </div>
+      <div class="carousel-caption">
+        <h3> {{food.name}}</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel> -->
+  <img [src]="food.imageUrl[0]" [alt]="food.name">
 
   <div class="details">
     <div class="header">

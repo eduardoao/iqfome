@@ -2,8 +2,11 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  margin: 1.5rem;
+  /* margin: 1.5rem; */
   margin-top: 0.5rem;
+  justify-content: center;
+  align-items: center;
+
 }
 
 ul{
@@ -91,17 +94,15 @@ li .remove-button:hover{
   align-items: flex-start;
 }
 
-.foods-count{
-  margin-bottom: 1.5rem;
-}
+
 
 .foods-count::before{
-  content:"Count: ";
+  content:'Itens: ';
   color: grey;
 }
 
 .total-price::before{
-  content: 'Price: ';
+  content: 'Preço: ';
   color: grey;
 }
 
