@@ -10,7 +10,7 @@ export const sample_foods: Food[] = [
     favorite: false,
     origins: ['italy'],
     stars: 4.5,
-    imageUrl: ['assets/food-1.jpg', 'assets/food-6.jpg'],
+    imageUrl: ['assets/food-1.jpg'],
     tags: ['FastFood', 'Pizza', 'Lunch'],
   },
   {
