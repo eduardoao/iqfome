@@ -4,12 +4,14 @@
   left: 0;
   right: 0;
   /* padding: 2rem; */
-  padding-top: 40px;
+  padding-top: 25px;
   background: #dd4545;
   color: white;
-  font-weight: 500;
+  font-weight: 350;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0.2rem;
+  font-size: 1.3rem;
+
 }
