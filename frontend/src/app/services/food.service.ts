@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { sample_foods } from 'src/data';
-import { sample_tags } from 'src/data';
+import { sample_foods } from '../../../../backend/src/data';
+import { sample_tags } from '../../../../backend/src/data';
 
 import { Food } from '../shared/models/food';
 import { Tag } from '../shared/models/tag';
