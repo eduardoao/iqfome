@@ -2,9 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "cd src && nodemon server.ts",
+    "dev": "cd src && nodemon server.ts",
+    "start": "cd built && node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,8 +13,9 @@
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2",   
-    "typescript": "^5.1.6"
+    "express": "^4.18.2",
+    "typescript": "^5.1.6",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",
