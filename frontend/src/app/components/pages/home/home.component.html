@@ -1,6 +1,12 @@
 
 <app-search></app-search>
 <app-tags></app-tags>
+<app-not-found
+[visible]="!foods || !foods.length"
+notFoundMessage="Sem resultado para a pesquisa!"
+resetLinkText="Voltar para a página inicial">
+</app-not-found>
+
 <ul>
   <li *ngFor="let food of foods">
     <a routerLink="/food/{{food.id}}">
