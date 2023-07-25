@@ -20,6 +20,8 @@ app.get('/api/foods/search/:searchTerm', (req, res) => {
     .filter(food => food.name.toLowerCase()
     .includes(searchTerm.toLowerCase()));
 
+    console.log(foods) ;
+
     res.send(foods);    
 });
 
