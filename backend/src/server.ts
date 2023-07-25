@@ -6,7 +6,7 @@ const app = express();
 
 app.use(cors({
     credentials:true,
-    origin:['http://localhost:4200']
+    origin:['http://localhost:4200', 'https://iqfome.onrender.com']
 }));
 
 app.get('/api/foods', (req, res) => {   
@@ -19,6 +19,8 @@ app.get('/api/foods/search/:searchTerm', (req, res) => {
     const foods = sample_foods
     .filter(food => food.name.toLowerCase()
     .includes(searchTerm.toLowerCase()));
+
+    console.log(foods) ;
 
     res.send(foods);    
 });
