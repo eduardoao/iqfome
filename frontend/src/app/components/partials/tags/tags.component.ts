@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { Observable } from 'rxjs';
 import { FoodService } from 'src/app/services/food.service';
 import { Tag } from 'src/app/shared/models/tag';
 
@@ -12,7 +13,14 @@ export class TagsComponent  {
   tags?:Tag[];
 
   constructor(foodService: FoodService) {
-    this.tags = foodService.getAllTags();
+    let tagsObservable: Observable<Tag[]>;
+
+    tagsObservable = foodService.getAllTags();
+
+
+    tagsObservable.subscribe((serverTags) => {
+      this.tags = serverTags;
+    });
 
   }
 

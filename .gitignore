@@ -13,6 +13,11 @@ node_modules
 /frontend/npm-debug.log
 /frontend/yarn-error.log
 
+dist
+build
+node_modules
+README.md
+
 
 # IDEs and editors
 .idea/
