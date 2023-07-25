@@ -6,7 +6,7 @@ const app = express();
 
 app.use(cors({
     credentials:true,
-    origin:['http://localhost:4200']
+    origin:['http://localhost:4200', 'https://iqfome.onrender.com']
 }));
 
 app.get('/api/foods', (req, res) => {   
