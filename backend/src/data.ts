@@ -21,6 +21,7 @@ export const sample_foods: any[] = [
     stars: 4.7,
     imageUrl: ['assets/food-2.jpg'],
     tags: ['SlowFood', 'Lunch'],
+    information: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ligula justo. Quisque consectetur, dui eu pharetra tincidunt, augue urna mattis nunc sit amet sollicitudin risus felis eu erat. Phasellus gravida placerat turpis nec elementum. Quisque urna leo, rhoncus eget velit eu, elementum semper felis. Donec at elementum nunc. Etiam consectetur imperdiet tortor sed malesuada. Donec eu mi dignissim, vehicula tellus at, euismod eros. Maecenas suscipit nisl vel accumsan hendrerit. Donec bibendum tempus nunc, vitae euismod purus eleifend vel. Vestibulum eget ex dictum, ullamcorper diam eu, finibus sem. Duis fringilla fringilla tellus sed molestie. Aenean a nisi sapien. Nulla a suscipit odio. Aenean in lacus tellus. Donec eu rutrum purus, a pellentesque felis. Vivamus id tortor aliquet, pharetra lectus vel, pretium felis. In scelerisque justo et nunc pretium, sit amet aliquet tortor sollicitudin. Aliquam tempor, quam at tempor rhoncus, felis erat facilisis diam, non ornare est dolor nec orci. Phasellus.'
   },
   {
     id:'3',
@@ -32,6 +33,7 @@ export const sample_foods: any[] = [
     stars: 3.5,
     imageUrl: ['assets/food-3.jpg'],
     tags: ['FastFood', 'Hamburger'],
+    information: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ligula justo. Quisque consectetur, dui eu pharetra tincidunt, augue urna mattis nunc sit amet sollicitudin risus felis eu erat. Phasellus gravida placerat turpis nec elementum. Quisque urna leo, rhoncus eget velit eu, elementum semper felis. Donec at elementum nunc. Etiam consectetur imperdiet tortor sed malesuada. Donec eu mi dignissim, vehicula tellus at, euismod eros. Maecenas suscipit nisl vel accumsan hendrerit. Donec bibendum tempus nunc, vitae euismod purus eleifend vel. Vestibulum eget ex dictum, ullamcorper diam eu, finibus sem. Duis fringilla fringilla tellus sed molestie. Aenean a nisi sapien. Nulla a suscipit odio. Aenean in lacus tellus. Donec eu rutrum purus, a pellentesque felis. Vivamus id tortor aliquet, pharetra lectus vel, pretium felis. In scelerisque justo et nunc pretium, sit amet aliquet tortor sollicitudin. Aliquam tempor, quam at tempor rhoncus, felis erat facilisis diam, non ornare est dolor nec orci. Phasellus.'
   },
   {
     id:'4',
@@ -43,6 +45,7 @@ export const sample_foods: any[] = [
     stars: 3.3,
     imageUrl: ['assets/food-4.jpg'],
     tags: ['FastFood', 'Fry'],
+    information: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ligula justo. Quisque consectetur, dui eu pharetra tincidunt, augue urna mattis nunc sit amet sollicitudin risus felis eu erat. Phasellus gravida placerat turpis nec elementum. Quisque urna leo, rhoncus eget velit eu, elementum semper felis. Donec at elementum nunc. Etiam consectetur imperdiet tortor sed malesuada. Donec eu mi dignissim, vehicula tellus at, euismod eros. Maecenas suscipit nisl vel accumsan hendrerit. Donec bibendum tempus nunc, vitae euismod purus eleifend vel. Vestibulum eget ex dictum, ullamcorper diam eu, finibus sem. Duis fringilla fringilla tellus sed molestie. Aenean a nisi sapien. Nulla a suscipit odio. Aenean in lacus tellus. Donec eu rutrum purus, a pellentesque felis. Vivamus id tortor aliquet, pharetra lectus vel, pretium felis. In scelerisque justo et nunc pretium, sit amet aliquet tortor sollicitudin. Aliquam tempor, quam at tempor rhoncus, felis erat facilisis diam, non ornare est dolor nec orci. Phasellus.'
   },
   {
     id:'5',
@@ -54,6 +57,7 @@ export const sample_foods: any[] = [
     stars: 3.0,
     imageUrl: ['assets/food-5.jpg'],
     tags: ['SlowFood', 'Soup'],
+    information: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ligula justo. Quisque consectetur, dui eu pharetra tincidunt, augue urna mattis nunc sit amet sollicitudin risus felis eu erat. Phasellus gravida placerat turpis nec elementum. Quisque urna leo, rhoncus eget velit eu, elementum semper felis. Donec at elementum nunc. Etiam consectetur imperdiet tortor sed malesuada. Donec eu mi dignissim, vehicula tellus at, euismod eros. Maecenas suscipit nisl vel accumsan hendrerit. Donec bibendum tempus nunc, vitae euismod purus eleifend vel. Vestibulum eget ex dictum, ullamcorper diam eu, finibus sem. Duis fringilla fringilla tellus sed molestie. Aenean a nisi sapien. Nulla a suscipit odio. Aenean in lacus tellus. Donec eu rutrum purus, a pellentesque felis. Vivamus id tortor aliquet, pharetra lectus vel, pretium felis. In scelerisque justo et nunc pretium, sit amet aliquet tortor sollicitudin. Aliquam tempor, quam at tempor rhoncus, felis erat facilisis diam, non ornare est dolor nec orci. Phasellus.'
   },
   {
     id:'6',
@@ -65,6 +69,7 @@ export const sample_foods: any[] = [
     stars: 4.0,
     imageUrl: ['assets/food-6.jpg'],
     tags: ['FastFood', 'Pizza', 'Lunch'],
+    information: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ligula justo. Quisque consectetur, dui eu pharetra tincidunt, augue urna mattis nunc sit amet sollicitudin risus felis eu erat. Phasellus gravida placerat turpis nec elementum. Quisque urna leo, rhoncus eget velit eu, elementum semper felis. Donec at elementum nunc. Etiam consectetur imperdiet tortor sed malesuada. Donec eu mi dignissim, vehicula tellus at, euismod eros. Maecenas suscipit nisl vel accumsan hendrerit. Donec bibendum tempus nunc, vitae euismod purus eleifend vel. Vestibulum eget ex dictum, ullamcorper diam eu, finibus sem. Duis fringilla fringilla tellus sed molestie. Aenean a nisi sapien. Nulla a suscipit odio. Aenean in lacus tellus. Donec eu rutrum purus, a pellentesque felis. Vivamus id tortor aliquet, pharetra lectus vel, pretium felis. In scelerisque justo et nunc pretium, sit amet aliquet tortor sollicitudin. Aliquam tempor, quam at tempor rhoncus, felis erat facilisis diam, non ornare est dolor nec orci. Phasellus.'
   },
 ]
 
