@@ -94,4 +94,13 @@ export const sample_users:any[] = [
     address: "Rua Ricos e Ricos",
     isAdmin: true,
   },
+
+  {
+    name: "IqFome",
+    email: "fome@fome.com",
+    password: "12345",
+    address: "Rua dos famintos, 23",
+    isAdmin: false,
+  },
+
 ]
