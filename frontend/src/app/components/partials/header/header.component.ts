@@ -14,9 +14,13 @@ export class HeaderComponent {
   cartQuantity=0;
   user!:User;
 
+  version:string = "";
+
   constructor(cartService:CartService,private userService:UserService) {
     cartService.getCartObservable().subscribe((newCart) => {
       this.cartQuantity = newCart.totalCount;
+
+      this.version = '2.0 - 27/07/2023 - Login Page - Finished'
     })
 
     userService.userObservable.subscribe((newUser) => {
