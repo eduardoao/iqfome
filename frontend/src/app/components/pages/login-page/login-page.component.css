@@ -1,0 +1,63 @@
+.container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  margin-top: 3rem;
+}
+
+/* .details{
+  width: 28rem;
+} */
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.error-list{
+  color: red
+}
+
+div button{
+  margin-top: 2rem;
+  color: grey;
+  height: 3rem;
+  width: 5rem;
+  font-size: 1rem;
+  border-radius: 10rem 10rem 10rem 10rem;
+  border:none;
+  background-color: #e72929;
+  color: white;
+  opacity: 0.8;
+  outline: none;
+}
+
+div button:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+input{
+  border-radius: 10rem 10rem 10rem 10rem;
+  border: none;
+  height: 3rem;
+  width: 20rem;
+  background-color: #f1f1f1;
+  padding: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  outline: none;
+}
+
+label{
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 0.3rem;
+  color: grey;
+  font-size: 1rem;
+}
+
+
+
