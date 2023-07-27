@@ -2,8 +2,9 @@
   display:flex;
   justify-content: center;
   align-items: center;
-  height:100%;
+  height:60%;
   margin-top: 3rem;
+  /* border: 1px solid #ffbbbb; */
 }
 
 /* .details{
@@ -21,7 +22,8 @@ form {
 }
 
 div button{
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
+  margin-bottom: 2rem;
   color: grey;
   height: 3rem;
   width: 5rem;
@@ -49,6 +51,7 @@ input{
   font-size: 1.1rem;
   font-weight: 500;
   outline: none;
+  margin-bottom: 1.0rem
 }
 
 label{
