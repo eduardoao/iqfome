@@ -3,19 +3,19 @@
     <a routerLink="/" class="logo"> IqFome! </a>
     <nav>
       <ul>
-        <li>
+        <li *ngIf="!isAuth">
           <a routerLink="/login">Login</a>
         </li>
-        <li class="menu-container">
-          <a routerLink="/dashboard"> Eduardo </a>
+        <li *ngIf="isAuth"  class="menu-container">
+          <a routerLink="/dashboard"> {{user.name}} </a>
           <div class="menu">
             <a routerLink="/profile">Perfil</a>
             <a routerLink="/orders">Pedidos</a>
-            <a>Logout</a>
+            <a (click)="logout()">Logout</a>
           </div>
         </li>
         <li>
-          <a routerLink="/cart-page">Carrinho <span>3</span></a>
+          <a routerLink="/cart-page">Carrinho <span *ngIf = "cartQuantity > 0" >{{cartQuantity}}</span></a>
         </li>
       </ul>
     </nav>
