@@ -7,9 +7,9 @@
   /* border: 1px solid #ffbbbb; */
 }
 
-/* .details{
-  width: 28rem;
-} */
+.details{
+  width: 45rem;
+}
 
 form {
   display: flex;
