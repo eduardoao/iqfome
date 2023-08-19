@@ -20,7 +20,7 @@ export class HeaderComponent {
     cartService.getCartObservable().subscribe((newCart) => {
       this.cartQuantity = newCart.totalCount;
 
-      this.version = '2.2 - 18/08/2023 - MoongoDB Connection finished!'
+      this.version = '2.3 - 18/08/2023 - Register Page!'
     })
 
     userService.userObservable.subscribe((newUser) => {
