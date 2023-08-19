@@ -2,7 +2,7 @@ import {Router} from 'express';
 import { sample_users } from '../data';
 
 import asyncHandler from 'express-async-handler';
-import { User, UserModel } from '../models/user.model';
+import {  UserModel } from '../models/user.model';
 
 import jwt from 'jsonwebtoken';
 
