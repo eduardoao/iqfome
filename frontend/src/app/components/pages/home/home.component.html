@@ -10,7 +10,7 @@ resetLinkText="Voltar para a página inicial">
 <ul>
   <li *ngFor="let food of foods">
     <a routerLink="/food/{{food.id}}">
-      <img [src]="food.imageUrl[0]" [alt]="food.name"/>
+      <img [src]="food.imageUrl" [alt]="food.name"/>
 
       <div class="content">
         <div class="name">
