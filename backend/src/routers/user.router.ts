@@ -18,7 +18,7 @@ router.get("/seed", asyncHandler(
      }
 
      await UserModel.create(sample_users);
-     res.send("Seed users ss Done!");
+     res.send("Seed users is Done!");
  }
  ))
 
@@ -48,4 +48,4 @@ router.get("/seed", asyncHandler(
     return user;    
   }
 
-  export default router; 
+  export default router;    

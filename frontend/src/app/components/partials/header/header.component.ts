@@ -20,7 +20,7 @@ export class HeaderComponent {
     cartService.getCartObservable().subscribe((newCart) => {
       this.cartQuantity = newCart.totalCount;
 
-      this.version = '2.3 - 18/08/2023 - Register Page!'
+      this.version = '2.4 -20/08/2023 - MongoBD Finished!'
     })
 
     userService.userObservable.subscribe((newUser) => {

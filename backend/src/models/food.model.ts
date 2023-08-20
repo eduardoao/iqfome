@@ -1,7 +1,7 @@
 import {Schema, model} from 'mongoose';
 
 export interface Food {   
-        id:string;
+        _id:string;
         name:string;
         price:number;
         tags: string[];
@@ -10,11 +10,12 @@ export interface Food {
         imageUrl: string;
         origins: string[];
         cookTime:string;
+        information:string;
 }
 
 export const FoodSchema = new Schema<Food>(
     {
-        id: {type: String },
+        _id: {type: String },
         name: {type: String, required:true},
         price: {type: Number, required:true},
         tags: {type: [String]},
@@ -22,7 +23,8 @@ export const FoodSchema = new Schema<Food>(
         stars: {type: Number, required:true},
         imageUrl: {type: String, required:true},
         origins: {type: [String], required:true},
-        cookTime: {type: String, required:true}
+        cookTime: {type: String, required:true},
+        information: {type: String, required:false}
     },{
         toJSON:{
             virtuals: true
