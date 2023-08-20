@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  /*margin: 3rem;*/  
+  /*margin: 3rem;*/
 
 }
 
@@ -87,6 +87,13 @@ img{
   border-radius: 10rem;
   font-weight: 600;
   color: blue;
+}
+
+.informations{
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
 }
 
 .cook-time{

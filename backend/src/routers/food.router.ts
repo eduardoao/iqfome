@@ -68,9 +68,7 @@ router.get('/tag/:tagName', asyncHandler(async (req, res) =>{
 }));
 
 router.get('/:foodId', asyncHandler( async (req, res) =>{
-    //const food = await FoodModel.findById(req.params.foodId);
-    const food = await FoodModel.find({id: req.params.foodId});
-
+    const food = await FoodModel.findById(req.params.foodId);  
     res.send(food);
 
 }));
